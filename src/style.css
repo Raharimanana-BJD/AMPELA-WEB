@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .line:has(:nth-child(1), :nth-child(3)) {
+    @apply absolute transform;
+  }
+  /* .line:nth-child(1) {
+    @apply -translate-y-1 bg-red-500;
+  }
+  .line:nth-child(3) {
+    @apply translate-y-1 bg-green-300;
+  } */
+}

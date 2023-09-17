@@ -1,0 +1,104 @@
+{
+  "links": [
+    {
+      "text": "Acceuil",
+      "href": "section01"
+    },
+    {
+      "text": "Fonctionnalité",
+      "href": "section02"
+    },
+    {
+      "text": "À propos",
+      "href": "section03"
+    },
+    {
+      "text": "Articles",
+      "href": "articles"
+    }
+  ],
+
+  "primary": "Télécharge l'application",
+
+  "secondary": [
+    {
+      "textSm": "Télécharge",
+      "textLg": "Google Play",
+      "href": "#google-play",
+      "imgIcon": "src/assets/svg/google.svg"
+    },
+    {
+      "textSm": "Télécharge",
+      "textLg": "App Store",
+      "href": "#app-store",
+      "imgIcon": "src/assets/svg/apple.svg"
+    }
+  ],
+
+  "section01": {
+    "titre": "Ampela - L'application qui simplifie le suivi de votre cycles menstruel",
+    "paragraphe": "Ampela vous accompagne avec des conseils avisés, des prévisions personnalisées et un suivi détaillé pour vous aider à prendre des décisions éclairées concernant votre santé reproductive.",
+    "hero": "src/assets/png/Phones.png"
+  },
+
+  "section02": {
+    "hero": "/src/assets/png/phone.png",
+    "titre": "Explorez les possibilités offertes par notre application",
+    "paragraphe": "Surveillez l'évolution de vos règles, de votre ovulation, de vos symptômes prémenstruels(SPM) et bien d'autres éléments encore."
+  },
+
+  "cards": [
+    {
+      "icon": "/src/assets/svg/calendar.svg",
+      "titre": "Calendrier",
+      "paragraphe": "Surveillez l'évolution de vos règles de votre ovulation, de vos symptômes prémenstruels(SPM) et bien d'autre éléments encore."
+    },
+    {
+      "icon": "/src/assets/svg/articles.svg",
+      "titre": "Calendrier",
+      "paragraphe": "Surveillez l'évolution de vos règles de votre ovulation, de vos symptômes prémenstruels(SPM) et bien d'autre éléments encore."
+    },
+    {
+      "icon": "/src/assets/svg/forum.svg",
+      "titre": "Calendrier",
+      "paragraphe": "Surveillez l'évolution de vos règles de votre ovulation, de vos symptômes prémenstruels(SPM) et bien d'autre éléments encore."
+    },
+    {
+      "icon": "/src/assets/svg/confiden.svg",
+      "titre": "Calendrier",
+      "paragraphe": "Surveillez l'évolution de vos règles de votre ovulation, de vos symptômes prémenstruels(SPM) et bien d'autre éléments encore."
+    }
+  ],
+
+  "section03": {
+    "titre": "À propos de nous",
+    "paragraphe": "Plongez dans l'univers créatif et technique de notre équipe dynamique. Composée de developpeurs front et backend ainsi que de talentueux designers UX/UI, nous unissons nos compétences variées pour donner vie à des expériences numériques captivantes."
+  },
+  "section04": {
+    "titre": "Nos dernier articles",
+    "paragraphe": "nous unissons nos compétences variées pour donner vie à des expériences numériques captivantes."
+  },
+
+  "footers": [
+    {
+      "titre": "Confidentialite",
+      "links": [
+        "Politique de confidentialite",
+        "Conditions d'utilisation",
+        "Politique de cookies"
+      ]
+    },
+    {
+      "titre": "Social media",
+      "links": ["Facebook", "Linkedin", "Instagram"]
+    },
+    {
+      "titre": "Social media",
+      "links": [
+        "+261 34 35 036 03",
+        "infoAmpela@gmail.com",
+        "Madagascar - Tuléar"
+      ]
+    }
+  ]
+}
