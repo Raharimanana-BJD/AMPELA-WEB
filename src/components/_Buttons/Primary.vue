@@ -4,7 +4,7 @@
       href="#"
       class="flex w-fit space-x-2 rounded-md bg-accents-600 p-3 px-6 py-2 pt-2"
     >
-      <span class="text-neutral-100">{{ primary }}</span>
+      <span class="text-neutral-100">{{ primary.name }}</span>
       <down />
     </a>
   </div>

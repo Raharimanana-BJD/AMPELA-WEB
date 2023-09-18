@@ -14,11 +14,11 @@
             </h1>
             <div class="flex flex-col gap-2">
               <a
-                href=""
+                :href="link.href"
                 v-for="link in item.links"
                 :key="link"
                 class="text-md text-center md:text-left"
-                >{{ link }}</a
+                >{{ link.name }}</a
               >
             </div>
           </div>

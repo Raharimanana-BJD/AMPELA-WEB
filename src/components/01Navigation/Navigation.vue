@@ -1,5 +1,8 @@
 <template>
-  <nav id="navigation" class="fixed w-full bg-neutral-100/70 backdrop-blur-md">
+  <nav
+    id="navigation"
+    class="fixed z-50 w-full bg-neutral-100/70 backdrop-blur-md"
+  >
     <div class="container relative mx-auto p-3 lg:p-6">
       <!-- Container flex -->
       <div class="flex items-center justify-between">
