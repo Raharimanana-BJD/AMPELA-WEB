@@ -23,7 +23,10 @@
       </div>
       <!-- right items -->
       <div class="flex w-full items-center justify-center lg:w-1/2">
-        <img :src="section01.hero" class="min-w-[10px] max-w-[332px]" />
+        <img
+          :src="'../src/assets/png/' + section01.hero"
+          class="min-w-[10px] max-w-[332px]"
+        />
       </div>
     </div>
   </section>

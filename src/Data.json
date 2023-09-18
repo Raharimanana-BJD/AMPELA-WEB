@@ -28,46 +28,46 @@
       "textSm": "Télécharge",
       "textLg": "Google Play",
       "href": "#google-play",
-      "imgIcon": "../src/assets/svg/google.svg"
+      "imgIcon": "google.svg"
     },
     {
       "textSm": "Télécharge",
       "textLg": "App Store",
       "href": "#app-store",
-      "imgIcon": "../src/assets/svg/apple.svg"
+      "imgIcon": "apple.svg"
     }
   ],
 
   "section01": {
     "titre": "Ampela - L'application qui simplifie le suivi de votre cycles menstruel",
     "paragraphe": "Ampela vous accompagne avec des conseils avisés, des prévisions personnalisées et un suivi détaillé pour vous aider à prendre des décisions éclairées concernant votre santé reproductive.",
-    "hero": "../src/assets/png/Phones.png"
+    "hero": "Phones.png"
   },
 
   "section02": {
-    "hero": "../src/assets/png/phone.png",
+    "hero": "phone.png",
     "titre": "Explorez les possibilités offertes par notre application",
     "paragraphe": "Surveillez l'évolution de vos règles, de votre ovulation, de vos symptômes prémenstruels(SPM) et bien d'autres éléments encore."
   },
 
   "cards": [
     {
-      "icon": "../src/assets/svg/calendar.svg",
+      "icon": "calendar.svg",
       "titre": "Calendrier",
       "paragraphe": "Surveillez l'évolution de vos règles de votre ovulation, de vos symptômes prémenstruels(SPM) et bien d'autre éléments encore."
     },
     {
-      "icon": "../src/assets/svg/articles.svg",
+      "icon": "articles.svg",
       "titre": "Calendrier",
       "paragraphe": "Surveillez l'évolution de vos règles de votre ovulation, de vos symptômes prémenstruels(SPM) et bien d'autre éléments encore."
     },
     {
-      "icon": "../src/assets/svg/forum.svg",
+      "icon": "forum.svg",
       "titre": "Calendrier",
       "paragraphe": "Surveillez l'évolution de vos règles de votre ovulation, de vos symptômes prémenstruels(SPM) et bien d'autre éléments encore."
     },
     {
-      "icon": "../src/assets/svg/confiden.svg",
+      "icon": "confiden.svg",
       "titre": "Calendrier",
       "paragraphe": "Surveillez l'évolution de vos règles de votre ovulation, de vos symptômes prémenstruels(SPM) et bien d'autre éléments encore."
     }
