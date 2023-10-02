@@ -4,15 +4,14 @@
       class="container mx-auto flex flex-col-reverse items-center gap-20 lg:flex-row lg:items-start lg:gap-12"
     >
       <!-- left items -->
-      <div class="mb-32 flex flex-col items-center space-y-8 lg:w-1/2">
-        <h1
-          class="max-w-md text-center text-4xl font-bold lg:text-left lg:text-5xl"
-        >
+      <div class="mb-32 flex w-full flex-col items-center space-y-8 lg:w-1/2">
+        <h1 class="text-center text-4xl font-bold lg:text-left lg:text-5xl">
           {{ section01.titre }}
         </h1>
-        <p class="max-w-md text-center text-primary-500 lg:text-left">
+        <p class="text-center text-primary-500 lg:text-left">
           {{ section01.paragraphe }}
         </p>
+        <i data-feather="download" class="text-2xl text-primary-500"></i>
         <div class="flex w-full flex-col items-center gap-2 md:flex-row">
           <Secondary
             :newsItem="newsItem"
@@ -46,7 +45,7 @@ export default {
   },
   props: {
     section01: {
-      type: Array,
+      type: Object,
       default: () => Data.section01,
     },
   },

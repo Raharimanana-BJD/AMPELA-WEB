@@ -11,10 +11,6 @@
     {
       "text": "À propos",
       "href": "section03"
-    },
-    {
-      "text": "Articles",
-      "href": "articles"
     }
   ],
 
@@ -39,7 +35,7 @@
   ],
 
   "section01": {
-    "titre": "Ampela - L'application qui simplifie le suivi de votre cycles menstruel",
+    "titre": "Ampela - L'application qui simplifie le suivi de votre cycle menstruel",
     "paragraphe": "Ampela vous accompagne avec des conseils avisés, des prévisions personnalisées et un suivi détaillé pour vous aider à prendre des décisions éclairées concernant votre santé reproductive.",
     "hero": "Phones.png"
   },
@@ -54,22 +50,22 @@
     {
       "icon": "calendar.svg",
       "titre": "Calendrier",
-      "paragraphe": "Surveillez l'évolution de vos règles de votre ovulation, de vos symptômes prémenstruels(SPM) et bien d'autre éléments encore."
-    },
-    {
-      "icon": "articles.svg",
-      "titre": "Calendrier",
-      "paragraphe": "Surveillez l'évolution de vos règles de votre ovulation, de vos symptômes prémenstruels(SPM) et bien d'autre éléments encore."
+      "paragraphe": "Découvrez le calendrier d'Ampela : suivi précis, prévisions et rappels pour une compréhension du cycle, contraception et connaissance de soi."
     },
     {
       "icon": "forum.svg",
-      "titre": "Calendrier",
-      "paragraphe": "Surveillez l'évolution de vos règles de votre ovulation, de vos symptômes prémenstruels(SPM) et bien d'autre éléments encore."
+      "titre": "Forum",
+      "paragraphe": "Ampela propose un forum et des messages privés avec des professionnels de santé pour un soutien complet en matière de santé reproductive."
+    },
+    {
+      "icon": "articles.svg",
+      "titre": "Articles",
+      "paragraphe": "Ampela offre un accès sans connexion à des informations claires et concises sur les sujets liés à la menstruation. Les articles, adaptés à tous les âges, sont disponibles dès le téléchargement de l'application."
     },
     {
       "icon": "confiden.svg",
-      "titre": "Calendrier",
-      "paragraphe": "Surveillez l'évolution de vos règles de votre ovulation, de vos symptômes prémenstruels(SPM) et bien d'autre éléments encore."
+      "titre": "Confidentialité",
+      "paragraphe": "Ampela sécurise vos données personnelles pour que vous soyez libre de gérer vos informations en toute sérénité."
     }
   ],
 
@@ -131,6 +127,142 @@
         {
           "name": "Madagascar - Tuléar",
           "href": "#"
+        }
+      ]
+    }
+  ],
+
+  "profiles": [
+    {
+      "image": "lg-2.png",
+      "name": "Athena",
+      "role": "Chef de projet - Designer UX/UI",
+      "contact": [
+        {
+          "icon": "bxl-facebook",
+          "url": "facebook"
+        },
+        {
+          "icon": "bxl-linkedin",
+          "url": "linkedin"
+        },
+        {
+          "icon": "bx-globe",
+          "url": "web"
+        }
+      ]
+    },
+    {
+      "image": "lg-3.png",
+      "name": "Lynda",
+      "role": "Designer UX/UI",
+      "contact": [
+        {
+          "icon": "bxl-facebook",
+          "url": "facebook"
+        },
+        {
+          "icon": "bxl-linkedin",
+          "url": "linkedin"
+        },
+        {
+          "icon": "bx-globe",
+          "url": "web"
+        }
+      ]
+    },
+    {
+      "image": "lg-1.png",
+      "name": "Brayann",
+      "role": "Développeur frontend - Designer UX/UI",
+      "contact": [
+        {
+          "icon": "bxl-facebook",
+          "url": "facebook"
+        },
+        {
+          "icon": "bxl-linkedin",
+          "url": "linkedin"
+        },
+        {
+          "icon": "bx-globe",
+          "url": "web"
+        }
+      ]
+    },
+    {
+      "image": "lg-7.png",
+      "name": "Pierrot",
+      "role": "Développeur frontend",
+      "contact": [
+        {
+          "icon": "bxl-facebook",
+          "url": "facebook"
+        },
+        {
+          "icon": "bxl-linkedin",
+          "url": "linkedin"
+        },
+        {
+          "icon": "bx-globe",
+          "url": "web"
+        }
+      ]
+    },
+    {
+      "image": "lg-6.png",
+      "name": "Christophe",
+      "role": "Développeur Backend",
+      "contact": [
+        {
+          "icon": "bxl-facebook",
+          "url": "facebook"
+        },
+        {
+          "icon": "bxl-linkedin",
+          "url": "linkedin"
+        },
+        {
+          "icon": "bx-globe",
+          "url": "web"
+        }
+      ]
+    },
+    {
+      "image": "lg-5.png",
+      "name": "Mercia",
+      "role": "Développeur Backend",
+      "contact": [
+        {
+          "icon": "bxl-facebook",
+          "url": "facebook"
+        },
+        {
+          "icon": "bxl-linkedin",
+          "url": "linkedin"
+        },
+        {
+          "icon": "bx-globe",
+          "url": "web"
+        }
+      ]
+    },
+    {
+      "image": "lg-4.png",
+      "name": "Lionel",
+      "role": "Développeur Backend",
+      "contact": [
+        {
+          "icon": "bxl-facebook",
+          "url": "facebook"
+        },
+        {
+          "icon": "bxl-linkedin",
+          "url": "linkedin"
+        },
+        {
+          "icon": "bx-globe",
+          "url": "web"
         }
       ]
     }

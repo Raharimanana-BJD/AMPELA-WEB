@@ -3,7 +3,7 @@
     <Section01 :section01="section01" />
     <Section02 :section02="section02" />
     <Section03 :section03="section03" />
-    <Section04 />
+    <!-- <Section04 /> -->
   </main>
 </template>
 
@@ -12,13 +12,13 @@
 import Section01 from "../../components/_Sections/Section01.vue";
 import Section02 from "../../components/_Sections/Section02.vue";
 import Section03 from "../_Sections/Section03.vue";
-import Section04 from "../_Sections/Section04.vue";
+// import Section04 from "../_Sections/Section04.vue";
 // Data
 import Data from "../../Data";
 
 export default {
   name: "main",
-  components: { Section01, Section02, Section03, Section04 },
+  components: { Section01, Section02, Section03 },
   data() {
     return {
       primary: Data.primary,
