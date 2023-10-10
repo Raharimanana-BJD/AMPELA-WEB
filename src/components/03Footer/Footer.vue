@@ -1,6 +1,6 @@
 <template>
-  <footer id="footer">
-    <div class="container py-20">
+  <footer id="footer" class="relative w-full">
+    <div class="container w-full py-20">
       <!-- list -->
       <ul
         class="flex w-full flex-col items-start justify-between gap-10 lg:flex-row"

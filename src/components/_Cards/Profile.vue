@@ -34,7 +34,7 @@
 
 <script>
 // data
-// import Data from "../../Data";
+import Data from "../../Data";
 export default {
   name: "Profile",
   props: {

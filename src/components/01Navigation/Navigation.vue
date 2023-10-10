@@ -5,13 +5,13 @@
   >
     <div class="container relative mx-auto p-3 lg:p-6">
       <!-- Container flex -->
-      <div class="flex items-center justify-between">
+      <div class="flex flex-col items-center justify-between lg:flex-row">
         <!-- Logo -->
         <div class="w-fit">
           <Logo />
         </div>
         <!-- Menu items -->
-        <ul class="hidden items-center space-x-6 lg:flex">
+        <ul class="flex items-center space-x-6">
           <li v-for="(link, index) in links" :key="link" :index="index">
             <a :href="'#' + link.href.toLowerCase()">{{ link.text }}</a>
           </li>
@@ -19,14 +19,15 @@
         <!-- Button -->
         <Primary />
         <!-- Menu -->
-        <Menu />
+        <!-- <div class="absolute right-6 top-8">
+          <Menu />
+        </div> -->
       </div>
     </div>
   </nav>
 </template>
 
 <script>
-// composants
 import Logo from "../_Svg/Logo.vue";
 import Menu from "../_Svg/Menu.vue";
 // data
@@ -37,6 +38,7 @@ export default {
   data() {
     return {
       primary: Data.primary,
+      active: false,
     };
   },
   props: {
@@ -47,6 +49,7 @@ export default {
       },
     },
   },
+  methods: {},
   components: { Logo, Menu, Primary },
 };
 </script>
