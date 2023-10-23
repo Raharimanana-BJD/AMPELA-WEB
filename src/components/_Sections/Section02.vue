@@ -6,7 +6,7 @@
       <!-- left items -->
       <div class="col-span-1 hidden lg:block">
         <div class="mx-auto max-w-[260px]">
-          <img :src="'../src/assets/' + section02.hero" class="w-full" />
+          <img :src="'../public/' + section02.hero" class="w-full" />
         </div>
       </div>
       <!-- right items -->

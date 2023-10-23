@@ -1,12 +1,4 @@
-<template>
-  <div id="apple">
-    <svg
-      width="26"
-      height="30"
-      viewBox="0 0 26 30"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
+<svg width="26" height="30" viewBox="0 0 26 30" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path
         d="M18.4616 0C19.0203 3.35263 15.5199 5.8936 13.5628 7.03296C12.9856 7.36905 12.3342 6.94108 12.4337 6.28052C12.7682 4.05966 13.991 0.000123077 18.4616 0Z"
         fill="white"
@@ -16,13 +8,3 @@
         fill="white"
       />
     </svg>
-  </div>
-</template>
-
-<script>
-export default {
-  name: "apple",
-};
-</script>
-
-<style></style>

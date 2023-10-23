@@ -8,7 +8,9 @@
       <div class="flex flex-col items-center justify-between lg:flex-row">
         <!-- Logo -->
         <div class="w-fit">
-          <Logo />
+          <a href="#">
+            <img src="../../../public/logo.svg" alt="Logo Ampela">
+          </a>
         </div>
         <!-- Menu items -->
         <ul class="flex items-center space-x-6">
@@ -28,8 +30,6 @@
 </template>
 
 <script>
-import Logo from "../_Svg/Logo.vue";
-import Menu from "../_Svg/Menu.vue";
 // data
 import Data from "../../Data";
 import Primary from "../../components/_Buttons/Primary.vue";
@@ -49,6 +49,6 @@ export default {
     },
   },
   methods: {},
-  components: { Logo, Menu, Primary },
+  components: {  Primary },
 };
 </script>
