@@ -12,8 +12,6 @@
 </template>
 
 <script>
-// composants
-// import Down from "../../components/_Svg/down.vue";
 // data
 import Data from "../../Data";
 export default {

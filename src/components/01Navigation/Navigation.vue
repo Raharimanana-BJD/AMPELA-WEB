@@ -44,9 +44,8 @@ export default {
   props: {
     links: {
       type: Array,
-      default: () => {
-        Data.links, Data.primary;
-      },
+      default: () =>
+        Data.links,
     },
   },
   methods: {},
