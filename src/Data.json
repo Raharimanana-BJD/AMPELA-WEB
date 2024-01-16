@@ -37,7 +37,7 @@
   "section01": {
     "titre": "Ampela - L'application qui simplifie le suivi de votre cycle menstruel",
     "paragraphe": "Ampela vous accompagne avec des conseils avisés, des prévisions personnalisées et un suivi détaillé pour vous aider à prendre des décisions éclairées concernant votre santé reproductive.",
-    "hero": "Phones.png"
+    "hero": "dist/assets/Phones.png"
   },
 
   "section02": {
