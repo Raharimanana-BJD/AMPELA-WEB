@@ -6,7 +6,7 @@
     >
       <div>
         <img
-          :src="'../public/' + newsItem.imgIcon"
+          :src="'/' + newsItem.imgIcon"
           class="w-10 lg:w-8"
         />
       </div>

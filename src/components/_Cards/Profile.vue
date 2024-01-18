@@ -5,7 +5,7 @@
   >
     <!-- image -->
     <img
-      :src="'../public/' + profile.image"
+      :src="'/' + profile.image"
       class="absolute left-0 right-0 top-0 mx-auto my-4 h-16 w-16"
     />
     <div

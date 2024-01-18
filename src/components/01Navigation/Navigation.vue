@@ -9,7 +9,7 @@
         <!-- Logo -->
         <div class="w-fit">
           <a href="#">
-            <img src="../../../public/logo.svg" alt="Logo Ampela">
+            <img src="/logo.svg" alt="Logo Ampela">
           </a>
         </div>
         <!-- Menu items -->
