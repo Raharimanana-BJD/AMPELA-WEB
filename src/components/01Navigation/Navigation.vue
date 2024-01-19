@@ -1,32 +1,32 @@
 <template>
-  <nav
-    id="navigation"
-    class="fixed z-50 w-full bg-neutral-100/70 backdrop-blur-md"
-  >
-    <div class="container relative mx-auto p-3 lg:p-6">
-      <!-- Container flex -->
-      <div class="flex flex-col items-center justify-between lg:flex-row">
-        <!-- Logo -->
-        <div class="w-fit">
-          <a href="#">
-            <img src="/logo.svg" alt="Logo Ampela">
-          </a>
-        </div>
-        <!-- Menu items -->
-        <ul class="flex items-center space-x-6">
-          <li v-for="(link, index) in links" :key="link" :index="index">
-            <a :href="'#' + link.href.toLowerCase()">{{ link.text }}</a>
-          </li>
-        </ul>
-        <!-- Button -->
-        <Primary />
-        <!-- Menu -->
-        <!-- <div class="absolute right-6 top-8">
-          <Menu />
-        </div> -->
+  <header class="fixed z-50 w-full bg-neutral-100/70 backdrop-blur-md">
+    <div class="container flex items-center justify-between py-4 px-6 transition-all duration-300 ease-in-out">
+      <!-- Logo -->
+      <div class="w-fit">
+        <a href="#">
+          <img src="/logo.svg" alt="Logo Ampela">
+        </a>
       </div>
+      <!-- Hamburger -->
+      <div @click="toggleMenu" class="toggle | w-8 h-5 inline-block cursor-pointer relative z-50 md:hidden md:z-50">
+        <span class="top | origin-center"></span>
+        <span class="middle | top-1/2 transform -translate-y-1/2"></span>
+        <span class="bottom | bottom-0 origin-center"></span>
+      </div>
+      <!-- list items -->
+      <ul class=" hidden items-center gap-6 z-40 | md:flex">
+        <li v-for="(link, index) in links" :key="link" :index="index">
+          <a :href="'#' + link.href.toLowerCase()">{{ link.text }}</a>
+        </li>
+      </ul>
     </div>
-  </nav>
+    <ul
+      class="menuOpen | hidden w-full h-screen absolute transform -translate-y-full inset-0 bg-red-500 border pt-[20rem] text-center text-2xl space-y-6 z-40 | md:flex-col">
+      <li v-for="(link, index) in links" :key="link" :index="index">
+        <a :href="'#' + link.href.toLowerCase()">{{ link.text }}</a>
+      </li>
+    </ul>
+  </header>
 </template>
 
 <script>
@@ -48,7 +48,17 @@ export default {
         Data.links,
     },
   },
-  methods: {},
-  components: {  Primary },
+  methods: {
+    toggleMenu() {
+      this.menuOpen = !this.menuOpen;
+    },
+  },
+  components: { Primary },
 };
 </script>
+
+<style>
+.menuOpen {
+  transform: translateY(0);
+}
+</style>
