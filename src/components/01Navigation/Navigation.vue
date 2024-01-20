@@ -1,54 +1,60 @@
 <template>
-  <nav
-    id="navigation"
-    class="fixed z-50 w-full bg-neutral-100/70 backdrop-blur-md"
-  >
-    <div class="container relative mx-auto p-3 lg:p-6">
-      <!-- Container flex -->
-      <div class="flex flex-col items-center justify-between lg:flex-row">
-        <!-- Logo -->
-        <div class="w-fit">
-          <a href="#">
-            <img src="/logo.svg" alt="Logo Ampela">
-          </a>
-        </div>
-        <!-- Menu items -->
-        <ul class="flex items-center space-x-6">
-          <li v-for="(link, index) in links" :key="link" :index="index">
-            <a :href="'#' + link.href.toLowerCase()">{{ link.text }}</a>
-          </li>
-        </ul>
-        <!-- Button -->
-        <Primary />
-        <!-- Menu -->
-        <!-- <div class="absolute right-6 top-8">
-          <Menu />
-        </div> -->
+  <header class="fixed z-50 w-full bg-neutral-100/70 backdrop-blur-md transition-all duration-300 ease-in-out">
+    <div class="container flex items-center justify-between py-4 px-6">
+      <!-- Logo -->
+      <div class="w-fit z-50">
+        <a href="#">
+          <img src="/logo.svg" alt="Logo Ampela">
+        </a>
       </div>
+      <!-- Hamburger -->
+      <div @click="toggleMenu" class="toggle | w-8 h-5 inline-block cursor-pointer relative z-50 md:hidden">
+        <span :class="{ active: isMenuOpen }" class="top"></span>
+        <span :class="{ active: isMenuOpen }" class="middle | top-1/2 transform -translate-y-1/2"></span>
+        <span :class="{ active: isMenuOpen }" class="bottom | bottom-0"></span>
+      </div>
+      <!-- list items -->
+      <ul class="hidden items-center gap-6 z-40 | md:flex">
+        <li v-for="(link, index) in links" :key="link" :index="index">
+          <a :href="'#' + link.href.toLowerCase()">{{ link.text }}</a>
+        </li>
+      </ul>
     </div>
-  </nav>
+    <!-- list items mobile -->
+    <ul :class="{ 'hidden': !isMenuOpen, 'md:flex': !isMenuOpen, 'md:flex-col': isMenuOpen, 'translate-y-0': isMenuOpen }"
+      class="w-full h-screen absolute transform -translate-y-full inset-0 bg-white pt-[15rem] text-center text-2xl space-y-6 z-40 | md:flex-col">
+      <li v-for="(link, index) in links" :key="link" :index="index">
+        <a @click.stop="closeMenuAndNavigate(link)" :href="'#' + link.href.toLowerCase()">{{ link.text }}</a>
+      </li>
+    </ul>
+  </header>
 </template>
 
 <script>
-// data
 import Data from "../../Data";
-import Primary from "../../components/_Buttons/Primary.vue";
+
 export default {
   name: "navigation",
   data() {
     return {
-      primary: Data.primary,
-      active: false,
+      isMenuOpen: false,
     };
   },
   props: {
     links: {
       type: Array,
-      default: () =>
-        Data.links,
+      default: () => Data.links,
     },
   },
-  methods: {},
-  components: {  Primary },
+  methods: {
+    toggleMenu() {
+      this.isMenuOpen = !this.isMenuOpen;
+      document.body.classList.toggle('overflow-hidden', this.isMenuOpen);
+    },
+    closeMenuAndNavigate(link) {
+      this.isMenuOpen = false;
+      document.body.classList.remove('overflow-hidden');
+    },
+  },
 };
 </script>
