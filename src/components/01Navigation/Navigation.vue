@@ -8,7 +8,7 @@
         </a>
       </div>
       <!-- Hamburger -->
-      <div @click="toggleMenu" class="toggle | w-8 h-5 inline-block cursor-pointer relative z-50 md:hidden">
+      <div @click="toggleMenu" class="toggle | w-8 h-6 inline-block cursor-pointer relative z-50 md:hidden">
         <span :class="{ active: isMenuOpen }" class="top"></span>
         <span :class="{ active: isMenuOpen }" class="middle | top-1/2 transform -translate-y-1/2"></span>
         <span :class="{ active: isMenuOpen }" class="bottom | bottom-0"></span>
