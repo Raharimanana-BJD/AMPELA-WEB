@@ -2,7 +2,7 @@
   <div id="profile"
     class="relative flex h-72 w-full max-w-[260px] cursor-pointer rounded-lg bg-neutral-100/70 px-4 py-8 backdrop-blur-md">
     <!-- image -->
-    <img :src="'/' + profile.image" class="absolute left-0 right-0 top-0 mx-auto my-4 h-24 w-24" />
+    <img :src="'/' + profile.image" class="absolute left-0 right-0 top-0 mx-auto my-4 h-24 w-24 object-cover" />
     <div class="absolute left-1/2 top-2/3 flex -translate-x-1/2 -translate-y-2/3 transform flex-col justify-start">
       <h4 class="text-center text-lg font-bold uppercase text-primary-500">
         {{ profile.name }}

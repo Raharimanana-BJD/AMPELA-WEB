@@ -1,11 +1,11 @@
 {
   "links": [
     {
-      "text": "Acceuil",
+      "text": "Accueil",
       "href": "section01"
     },
     {
-      "text": "Fonctionnalité",
+      "text": "Fonctionnalités",
       "href": "section02"
     },
     {
@@ -15,21 +15,21 @@
   ],
 
   "primary": {
-    "name": "Télécharge l'application",
+    "name": "Télécharger l'application",
     "href": "section01"
   },
 
   "secondary": [
     {
-      "textSm": "Télécharge",
+      "textSm": "Télécharger sur",
       "textLg": "Google Play",
-      "href": "#google-play",
+      "href": "https://play.google.com/store/games?gl=FR",
       "imgIcon": "google.svg"
     },
     {
-      "textSm": "Télécharge",
+      "textSm": "Télécharger sur",
       "textLg": "App Store",
-      "href": "#app-store",
+      "href": "https://www.apple.com/fr/app-store/",
       "imgIcon": "apple.svg"
     }
   ],
@@ -71,7 +71,7 @@
 
   "section03": {
     "titre": "À propos de nous",
-    "paragraphe": "Plongez dans l'univers créatif et technique de notre équipe dynamique. Composée de developpeurs front et backend ainsi que de talentueux designers UX/UI, nous unissons nos compétences variées pour donner vie à des expériences numériques captivantes."
+    "paragraphe": "Plongez dans l'univers créatif et technique de notre équipe dynamique. Composée de développeurs front et backend ainsi que de talentueux designers UX/UI, nous unissons nos compétences variées pour donner vie à des expériences numériques captivantes."
   },
   "section04": {
     "titre": "Nos dernier articles",
@@ -83,7 +83,7 @@
       "titre": "Confidentialite",
       "links": [
         {
-          "name": "Politique de confidentialite",
+          "name": "Politique de confidentialité",
           "href": ""
         },
         {
@@ -136,76 +136,76 @@
     {
       "image": "lg-2.png",
       "name": "Athena",
-      "role": "Chef de projet - Designer UX/UI",
+      "role": "Cofondatrice - Designer UX",
       "contact": [
         {
-          "icon": "bxl-facebook",
-          "url": "facebook"
+          "icon": "bxl-gmail",
+          "url": "mailto:arthenajenna@gmail.com"
         },
         {
-          "icon": "bxl-linkedin",
-          "url": "linkedin"
+          "icon": "bxl-whatsapp",
+          "url": "phone:+261322102704"
         },
         {
-          "icon": "bx-globe",
-          "url": "web"
+          "icon": "bxl-twitter",
+          "url": "https://twitter.com/arthenajenna"
         }
       ]
     },
     {
       "image": "lg-3.png",
       "name": "Lynda",
-      "role": "Designer UX/UI",
+      "role": "Cofondatrice - Designer UX",
       "contact": [
         {
-          "icon": "bxl-facebook",
-          "url": "facebook"
+          "icon": "bxl-gmail",
+          "url": "mailto:raharinirinalyndasabrina@gmail.com"
+        },
+        {
+          "icon": "bxl-whatsapp",
+          "url": "phone:+261343971616"
         },
         {
           "icon": "bxl-linkedin",
-          "url": "linkedin"
-        },
-        {
-          "icon": "bx-globe",
-          "url": "web"
+          "url": "https://www.linkedin.com/in/lynda-sabrina-raharinirina-b5112227a/"
         }
       ]
     },
     {
       "image": "lg-1.png",
       "name": "Brayann",
-      "role": "Développeur frontend - Designer UX/UI",
+      "role": "Développeur Front-end - Designer UX/UI",
       "contact": [
         {
-          "icon": "bxl-facebook",
-          "url": "facebook"
+          "icon": "bxl-gmail",
+          "url": "mailto:brayjuanico@gmail.com"
         },
         {
           "icon": "bxl-linkedin",
-          "url": "linkedin"
+          "url": "https://www.linkedin.com/in/brayann-raharimanana-ba4624200/"
         },
         {
           "icon": "bx-globe",
-          "url": "web"
+          "url": "bray@hello.netlify.app"
         }
       ]
     },
     {
       "image": "lg-7.png",
-      "name": "Pierrot",
-      "role": "Développeur frontend",
+      "name": "Mihangy",
+      "role": "Développeur Front-end",
       "contact": [
         {
-          "icon": "bxl-facebook",
-          "url": "facebook"
+          "icon": "bxl-gmail",
+          "url": "pierrotmihangy@gmail.com"
         },
         {
           "icon": "bxl-linkedin",
-          "url": "linkedin"
+          "url": "https://www.linkedin.com/in/pierrot-mihangy-18785524b/"
         },
         {
           "icon": "bx-globe",
-          "url": "web"
+          "url": "https://mihangy-p.netlify.app/"
         }
       ]
     },
@@ -216,11 +216,11 @@
       "contact": [
         {
           "icon": "bxl-facebook",
-          "url": "facebook"
+          "url": "https://www.facebook.com/Mahalomba"
         },
         {
-          "icon": "bxl-linkedin",
-          "url": "linkedin"
+          "icon": "bxl-github",
+          "url": "https://github.com/christomah0"
         },
         {
           "icon": "bx-globe",
@@ -235,15 +235,15 @@
       "contact": [
         {
           "icon": "bxl-facebook",
-          "url": "facebook"
+          "url": "https://www.facebook.com/profile.php?id=100081988032400"
         },
         {
-          "icon": "bxl-linkedin",
-          "url": "linkedin"
+          "icon": "bxl-github",
+          "url": "https://github.com/aina-lang"
         },
         {
           "icon": "bx-globe",
-          "url": "web"
+          "url": "https://ainamercia.netlify.app/"
         }
       ]
     },
@@ -254,11 +254,11 @@
       "contact": [
         {
           "icon": "bxl-facebook",
-          "url": "facebook"
+          "url": "https://www.facebook.com/rakotomalalaLionel"
         },
         {
-          "icon": "bxl-linkedin",
-          "url": "linkedin"
+          "icon": "bxl-github",
+          "url": "https://github.com/Lionel-RAKOTOMALALA"
         },
         {
           "icon": "bx-globe",

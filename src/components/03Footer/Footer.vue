@@ -25,7 +25,7 @@
         </li>
         <li class="m-auto w-1/2 min-w-max space-y-6">
           <h3 class="text-center text-base font-bold uppercase lg:text-left">
-            Telecharge
+            Telecharger
           </h3>
           <div class="flex flex-col gap-4">
             <Secondary
