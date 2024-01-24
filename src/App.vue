@@ -10,7 +10,6 @@
 <script>
 import HomeView from "./Views/HomeView.vue";
 import Loader from "./components/loader/loader.vue";
-
 export default {
   name: "app",
   components: { HomeView, Loader },
