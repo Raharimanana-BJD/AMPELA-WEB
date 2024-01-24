@@ -1,5 +1,5 @@
 <template>
-  <header class="fixed z-50 w-full bg-neutral-100/70 backdrop-blur-md transition-all duration-300 ease-in-out">
+  <header class="fixed z-40 w-full bg-neutral-100/70 backdrop-blur-md transition-all duration-300 ease-in-out">
     <div class="container flex items-center justify-between py-4 px-6">
       <!-- Logo -->
       <div class="w-fit z-50">
@@ -22,7 +22,7 @@
     </div>
     <!-- list items mobile -->
     <ul :class="{ 'hidden': !isMenuOpen, 'md:flex': !isMenuOpen, 'md:flex-col': isMenuOpen, 'translate-y-0': isMenuOpen }"
-      class="w-full h-screen absolute transform -translate-y-full inset-0 bg-white pt-[15rem] text-center text-2xl space-y-6 z-40 | md:flex-col">
+      class="w-full h-screen absolute transform -translate-y-full inset-0 bg-white pt-[15rem] text-center text-2xl space-y-6 z-30 | md:flex-col">
       <li v-for="(link, index) in links" :key="link" :index="index">
         <a @click.stop="closeMenuAndNavigate(link)" :href="'#' + link.href.toLowerCase()">{{ link.text }}</a>
       </li>

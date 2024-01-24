@@ -20,6 +20,6 @@ export default {
     return {
       links: Data.links,
     };
-  },
+  }
 };
 </script>
