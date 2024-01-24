@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <loader :isLoading="isLoading" />
+    <Loader :isLoading="isLoading" />
     <div v-if="!isLoading">
       <HomeView />
     </div>
@@ -8,18 +8,21 @@
 </template>
 
 <script>
-import loader from "./components/loader/loader.vue"
 import HomeView from "./Views/HomeView.vue";
+import Loader from "./components/loader/loader.vue";
 
 export default {
   name: "app",
-  components: { HomeView, loader },
+  components: { HomeView, Loader },
   data() {
-    isLoading: true
-  }, mounted() {
+    return {
+      isLoading: true
+    }
+  },
+  mounted() {
     setTimeout(() => {
-      this.isLoading = false
-    }, 1000)
+      this.isLoading = false;
+    }, 2000);
   }
 };
 </script>

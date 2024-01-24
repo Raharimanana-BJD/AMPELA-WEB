@@ -52,7 +52,7 @@ import Secondary from "../_Buttons/Secondary.vue";
 // Data
 import Data from "../../Data";
 export default {
-  name: "footer",
+  name: "CustomFooter",
   data() {
     return {
       secondary: Data.secondary,
